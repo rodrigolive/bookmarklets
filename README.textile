@@ -1,6 +1,6 @@
 h1. Bookmarklets 
 
-This is one of the reasons I like Firefox. 
+This is one of the reasons I stick with Firefox. 
 
 h2. Usage
 
