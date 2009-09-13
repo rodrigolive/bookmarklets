@@ -22,7 +22,7 @@ h3. Customizing
 
 You can theme it easily checking out this themes available here:
 
-"":http://shjs.sourceforge.net/css/
+"http://shjs.sourceforge.net/css/":http://shjs.sourceforge.net/css/
 
 h2. cpan_sh.js
 
