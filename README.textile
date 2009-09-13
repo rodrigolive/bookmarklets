@@ -10,7 +10,9 @@ h2. Usage
 # Voilà. 
 # Try clicking on package names to navigate the CPAN. 
 
-If you like what you see, create a new bookmark and paste the code in the URL field. Than it's going to be as easy as pushing a button to highlight a CPAN source.
+You'll have to run the bookmarklet everytime a source page is opened. 
+
+So, if you like what you see, create a new bookmark and paste the code in the URL field. Than it's going to be as easy as pushing a button to highlight a CPAN source.
 
 h2. cpan_shjs.js
 
@@ -26,17 +28,17 @@ You can theme it easily checking out this themes available here:
 
 h2. cpan_sh.js
 
-This one uses "SyntaxHighlighter":http://alexgorbatchev.com/wiki/SyntaxHighlighter. It's quite lush, but maybe too busy for my taste buds. No package linking implemented, which requires developing a trigger of some sort. 
+This one uses "SyntaxHighlighter":http://alexgorbatchev.com/wiki/SyntaxHighlighter. It's quite lush, but a little too busy for my taste buds. No package linking implemented, which requires developing a trigger of some sort. 
 
 h2. Issues 
 
 h3. Browsers
 
-Developed and tested on Firefox 3.5. I ignore if the rest of the browsing world support this thing. Try it then let me know if it works.
+Developed and tested on Firefox 3.5. I have no idea if the rest of the browsing world support bookmarklets well. Try it then let me know if it works.
 
 h3. Hosting
 
-The scripts are hosted on their authors pages. I recommend you change it to a local repository, maybe even your harddisk. Both for performance reasons or to avoiding 404 errors on repository changes. 
+The hightlighting scripts are hosted on their authors pages. I recommend you change it to a local repository, maybe even your harddisk. Both for performance reasons and to avoid 404 errors on repository changes. 
 
 h2. Author
 
