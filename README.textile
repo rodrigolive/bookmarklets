@@ -5,13 +5,9 @@ This is one of the reasons I like Firefox.
 h2. Usage
 
 # Copy the contents of the *cpan_shjs.js* javascript file.
-
 # Open a CPAN source code page, like "this one":http://cpansearch.perl.org/src/DROLSKY/Moose-0.89/lib/Moose.pm.
-
-# Paste the javascript code in the location bar of your browser. 
-
+# Paste the javascript code in the location bar of your browser. Hit intro.
 # Voilà. 
-
 # Try clicking on package names to navigate the CPAN. 
 
 If you like what you see, create a new bookmark and paste the code in the URL field. Than it's going to be as easy as pushing a button to highlight a CPAN source.
@@ -26,11 +22,11 @@ h3. Customizing
 
 You can theme it easily checking out this themes available here:
 
-:http://shjs.sourceforge.net/css/
+"":http://shjs.sourceforge.net/css/
 
 h2. cpan_sh.js
 
-This one uses "SyntaxHighlighter":http://alexgorbatchev.com/wiki/SyntaxHighlighter. It's lush, but very busy for my taste. No package linking implemented, which requires developing a trigger of some sort. 
+This one uses "SyntaxHighlighter":http://alexgorbatchev.com/wiki/SyntaxHighlighter. It's quite lush, but maybe too busy for my taste buds. No package linking implemented, which requires developing a trigger of some sort. 
 
 h2. Issues 
 
