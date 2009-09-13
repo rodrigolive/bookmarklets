@@ -1,0 +1,51 @@
+h1. Bookmarklets 
+
+This is one of the reasons I like Firefox. 
+
+h2. Usage
+
+# Copy the contents of the *cpan_shjs.js* javascript file.
+
+# Open a CPAN source code page, like "this one":http://cpansearch.perl.org/src/DROLSKY/Moose-0.89/lib/Moose.pm.
+
+# Paste the javascript code in the location bar of your browser. 
+
+# Voilà. 
+
+# Try clicking on package names to navigate the CPAN. 
+
+If you like what you see, create a new bookmark and paste the code in the URL field. Than it's going to be as easy as pushing a button to highlight a CPAN source.
+
+h2. cpan_shjs.js
+
+This script is quite fast because it uses the lightweight "SHJS project":http://shjs.sourceforge.net/ .
+
+Although it has no line numbering out of the box, it's doable.
+
+h3. Customizing
+
+You can theme it easily checking out this themes available here:
+
+:http://shjs.sourceforge.net/css/
+
+h2. cpan_sh.js
+
+This one uses "SyntaxHighlighter":http://alexgorbatchev.com/wiki/SyntaxHighlighter. It's lush, but very busy for my taste. No package linking implemented, which requires developing a trigger of some sort. 
+
+h2. Issues 
+
+h3. Browsers
+
+Developed and tested on Firefox 3.5. I ignore if the rest of the browsing world support this thing. Try it then let me know if it works.
+
+h3. Hosting
+
+The scripts are hosted on their authors pages. I recommend you change it to a local repository, maybe even your harddisk. Both for performance reasons or to avoiding 404 errors on repository changes. 
+
+h2. Author
+
+rodrigolive (Rodrigo de Oliveira) 
+
+h2. Copyright
+
+Blah blah blah.
