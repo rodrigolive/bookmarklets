@@ -5,12 +5,7 @@ javascript:(function() {
 	code = code.replace( /(([A-Z]\w+::[A-Z]\w+)(::[A-Z]\w+)*)/g, '<a class="perldoc" href="http://search.cpan.org/perldoc?$1">$1</a>' );
 	code = code.replace( /^(use|require) (\w+(::\w+)*)/gm, '$1 <a class="perldoc" href="http://search.cpan.org/perldoc?$2">$2</a>' );
 
-	document.body.innerHTML = '';
-
-	document.write('
-		<script type="text/javascript" src="http://shjs.sourceforge.net/sh_main.min.js"></script>
-		<script type="text/javascript" src="http://shjs.sourceforge.net/lang/sh_perl.js"></script>
-
+	document.body.innerHTML = '
 		<link type="text/css" rel="stylesheet" href="http://shjs.sourceforge.net/sh_style.css" />
 		<style>
 			.perldoc { color: brown; text-decoration: none; font-weight: bold; }
@@ -22,10 +17,14 @@ javascript:(function() {
 		</style>
 
 		<pre class="sh_perl">' + code + '<\/pre>
-		<script type="text/javascript">
-			sh_highlightDocument();
-		<\/script>
-		');
-	document.close();
-})()
-
+		';
+	var sc=document.createElement('script');
+	sc.type = 'text/javascript';
+	sc.src = "http://shjs.sourceforge.net/lang/sh_perl.js"; 
+	document.body.appendChild(sc);
+	var sc2=document.createElement('script');
+	sc2.type = 'text/javascript';
+	sc2.src = "http://shjs.sourceforge.net/sh_main.min.js";
+	sc2.onload = function(){ sh_highlightDocument(); };
+	document.body.appendChild(sc2);
+})(); 
