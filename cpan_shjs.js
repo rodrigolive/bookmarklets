@@ -2,8 +2,10 @@ javascript:(function() {
 	var pre = document.body.children[0];
 	var code = pre.innerHTML;
 
-	code = code.replace( /(([A-Z]\w+::[A-Z]\w+)(::[A-Z]\w+)*)/g, '<a class="perldoc" href="http://search.cpan.org/perldoc?$1">$1</a>' );
-	code = code.replace( /^(use|require) (\w+(::\w+)*)/gm, '$1 <a class="perldoc" href="http://search.cpan.org/perldoc?$2">$2</a>' );
+	code = code.replace( /(([A-Z]\w+::[A-Z]\w+)(::[A-Z]\w+)*)/g,
+		'<a class="perldoc" href="http://search.cpan.org/perldoc?$1">$1</a>' );
+	code = code.replace( /^(use|require) (\w+(::\w+)*)/gm,
+		'$1 <a class="perldoc" href="http://search.cpan.org/perldoc?$2">$2</a>' );
 
 	var html = '
 		<link type="text/css" rel="stylesheet" href="http://shjs.sourceforge.net/sh_style.css" />
