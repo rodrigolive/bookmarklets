@@ -1,5 +1,8 @@
 javascript:(function() {
-	var pre = document.body.children[0];
+	var pre;
+	try { pre = document.body.children[0]; } catch(e) {
+		pre = document.getElementsByTagName('pre')[0]
+	}
 	var code = pre.innerHTML;
 
 	document.body.innerHTML = '';
